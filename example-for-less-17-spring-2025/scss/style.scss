@@ -1,0 +1,24 @@
+@use "sass:math";
+
+@import "_mixins.scss";
+@import "_reset.scss";
+@import "_variables.scss";
+@import "_common.scss";
+
+.wrapper {
+  overflow: clip;
+  min-height: 100%;
+
+  display: flex;
+  flex-direction: column;
+}
+.page {
+  flex-grow: 1;
+}
+
+[class*="__container"] {
+  max-width: toRem(1440);
+  margin: 0 auto;
+  padding: 0 toRem(15);
+}
+
