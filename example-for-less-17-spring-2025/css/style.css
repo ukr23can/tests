@@ -568,10 +568,10 @@ footer {
 /* (any-hover: none) може не коректно працювати у деяких китайських телефонах 
 тому додано ще медіазапит (pointer: coarse) */
 @media (any-hover: none), (pointer: coarse) {
-  .product-card__actions {
+  /* .product-card__actions {
     opacity: 1;
     visibility: visible;
-  }
+  } */
 
   .product-card--horizontal-mod .product-card__actions {
     position: relative;
